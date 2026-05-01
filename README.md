@@ -15,6 +15,6 @@ I am an **Informatics Student** at Universitas Teknologi Yogyakarta (UTY) specia
 ### 🧪 Technical Skills
 *   **Languages**: Python (Pandas, NumPy, Scikit-learn), JavaScript, PHP (Laravel).[cite: 3, 4]
 *   **AI/ML**: MLP, SLP, Optuna (Bayesian Optimization).[cite: 1, 2]
-*   **Tools**: Git, Docker, MySQL/MariaDB.[cite: 3]
+*   **Tools**: Git, MySQL/MariaDB.[cite: 3]
 
 ---
