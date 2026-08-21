@@ -6,10 +6,10 @@ I am an **Informatics Student** at Universitas Teknologi Yogyakarta (UTY) specia
 *   **[Weather Prediction MLP](https://github.com/SHERLLYBRILIANT/Weather-Prediction-MLP)**: Deep Learning model with 99.05% accuracy using Bayesian Optimization (Optuna).
 *   **[Fake Account Detection SLP](https://github.com/SHERLLYBRILIANT/Fake-Account-Detection-SLP)**: Comparing Sigmoid, Tanh, and ReLU activation functions for social media classification.
 *   **(https://projek-spk-metode-saw.vercel.app/)**
-#  SAW Method Decision Support System
+  SAW Method Decision Support System
 #web-based Decision Support System (DSS) implementing the Simple Additive Weighting (SAW) algorithm to calculate criteria weights and rank alternative options with precision.
-# Tools & Technologies:
-# Python: Core programming language handling the business logic and mathematical execution of the SAW algorithm.
+ Tools & Technologies:
+ Python: Core programming language handling the business logic and mathematical execution of the SAW algorithm.
 Flask: Web microframework managing routing, HTTP requests, and backend-frontend integration.
 HTML5 & CSS3: Structuring the visual layout and styling the user interface.
 JavaScript: Enabling frontend interactivity and dynamic data handling on the client side.
