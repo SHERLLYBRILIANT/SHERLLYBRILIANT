@@ -48,4 +48,16 @@ I am an **Informatics Student** at Universitas Teknologi Yogyakarta (UTY) specia
 - [**Gudeg Yu Djum — Culinary & Menu Information System (Yogyakarta)**](https://github.com/SHERLLYBRILIANT/projek-web-sistem-informasi-rm-gudeg-yudjum) ([Live Demo](https://projek-web-sistem-informasi-rm-gudeg-yudjum.vercel.app)) Web-based culinary heritage and menu catalog platform showcasing Gudeg Yu Djum in Wijilan, Yogyakarta. Features real-time product availability across traditional variants (Nasi Gudeg, Gudeg Besek, Kendil, Kaleng, and Frozen), interactive category filtering, brand history timeline, outlet location details, and instant WhatsApp ordering with pre-filled message templates—engineered with a stateless modular data architecture (`MENU_DATA`) and Jinja2 XSS auto-escaping for seamless serverless hosting.
   * Tools & Technologies:
     * **Python 3.11 & Flask:** Lightweight server-side microframework managing route validation, category query filtering, safe static asset resolution (`url_for`), and modular `MENU_DATA` catalog storage without external database overhead.
-    * **Jinja2, HTML5 & Vanilla CSS:** Server-side templating with automatic XSS escaping
+    * **Jinja2, HTML5 & Vanilla CSS:** Server-side templating with automatic XSS escaping paired with responsive custom CSS, Google Fonts (`Playfair Display` & `DM Sans`), and Font Awesome 6 iconography.
+    * **JavaScript (ES6+):** Delivering interactive UI behaviors including parallax hero sections, scroll-reveal animations, animated counters, and a responsive mobile navigation drawer.
+    * **Docker & Vercel:** Containerized local development via Docker Compose and continuous serverless Python deployment on Vercel.
+
+- [**Sistem Inventori Gedung Serbaguna — Facility & Booking System (Yogyakarta)**](https://github.com/SHERLLYBRILIANT/projek-web-sistem-inventori-gedung) ([Live Demo](https://projek-web-sistem-inventori-gedung.vercel.app)) Web-based multipurpose hall inventory and facility management platform in Yogyakarta designed to digitize hall catalogs and prevent double bookings. Features district-level search and filtering, an interactive real-time availability calendar, detailed capacity and pricing showcases, instant WhatsApp booking integration with pre-filled message templates, and a protected administrative CRUD dashboard for managing halls, rental schedules, and maintenance logs—hardened with Bcrypt password hashing, anti-CSRF form tokens, PDO prepared statements, and XSS output escaping.
+  * Tools & Technologies:
+    * **PHP 8.x Native (PDO):** Lightweight server-side architecture executing parameterized PDO queries, Bcrypt (`password_hash`) authentication, anti-CSRF form validation, `htmlspecialchars` XSS mitigation, and cURL API uploads without framework overhead.
+    * **PostgreSQL (Neon.tech):** Serverless SSL-encrypted cloud relational database persisting hall inventories, booking schedules, and maintenance records independently of Vercel's ephemeral filesystem.
+    * **Cloudinary CDN:** Cloud media storage delivering persistent, fast-loading hall photo galleries directly via CDN URLs.
+    * **Tailwind CSS & Google Fonts:** Crafting a modern, responsive UI/UX across the public hall directory, interactive availability calendar, and administrative dashboard.
+    * **Docker & Vercel:** Containerized local development via Docker Compose (Apache + PHP) and automated serverless PHP deployment on Vercel.
+
+</div>
